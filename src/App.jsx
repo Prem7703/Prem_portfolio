@@ -84,7 +84,7 @@ function App() {
             </p>
             <div className="button-and-icons">
               <div className="buttons">
-                <a href={`${process.env.PUBLIC_URL}/premcv.pdf`} download>
+                <a href="/Prem_portfolio/premcv.pdf" download>
                   <button>Download CV</button>
                 </a>
                 <button>Contact</button>
