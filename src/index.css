@@ -1,0 +1,36 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make sure html & body take full height */
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+/* Allow full height flex containers if needed */
+#root {
+  height: 100%;
+}
+
+/* Remove list styles globally if you use ul/ol in future */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove underline from links */
+a {
+  text-decoration: none;
+}
+
+/* Improve image handling */
+img {
+  max-width: 100%;
+  display: block;
+}
