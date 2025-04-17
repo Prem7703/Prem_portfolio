@@ -68,13 +68,13 @@ function App() {
       <Navbar toggleTheme={toggleTheme} theme={theme} />
       <section id="home" className="section home">
         <video autoPlay loop muted playsInline className="background-video">
-          <source src="/videos/3d046a430fe7be23d8e064768e1a2350.mp4" type="video/mp4" />
+          <source src="./videos/3d046a430fe7be23d8e064768e1a2350.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
         <div className="intro-container">
           <div className="intro-photo">
-            <img src="/images/prem.jpeg" alt="Prem Kumar" />
+            <img src="./images/prem.jpeg" alt="Prem Kumar" />
           </div>
           <div className="intro-text">
             <h2>Hi, I'm Challagali Prem kumar</h2>
@@ -111,7 +111,7 @@ function App() {
       <section id="about" className="section about new-about-section">
         <div className="about-content">
           <div className="about-image">
-            <img src="/images/674208.gif" alt="Illustration" />
+            <img src="./images/674208.gif" alt="Illustration" />
           </div>
           <div className="about-text">
             <h2>
@@ -136,7 +136,7 @@ function App() {
         <h2>My certifications</h2>
         <div className="project-gallery">
           <div className="card">
-            <img src="/images/introductiontocip.jpeg" alt="Project 1" />
+            <img src="./images/introductiontocip.jpeg" alt="Project 1" />
             <div className="card-content">
               <h3>ICIP Certification</h3>
               <p>Introduction to Critical Infrastructure Protection.</p>
@@ -144,7 +144,7 @@ function App() {
           </div>
 
           <div className="card">
-            <img src="/images/my certificate 2.png" alt="Project 2" />
+            <img src="./images/my certificate 2.png" alt="Project 2" />
             <div className="card-content">
               <h3>Cyber Security</h3>
               <p>Certificate of Participation in CyberSec Training.</p>
@@ -152,7 +152,7 @@ function App() {
           </div>
 
           <div className="card">
-            <img src="/images/Programming with Python.png" alt="Project 3" />
+            <img src="./images/Programming with Python.png" alt="Project 3" />
             <div className="card-content">
               <h3>Project 3</h3>
               <p>Description about project 3 here.</p>
@@ -160,7 +160,7 @@ function App() {
           </div>
 
           <div className="card">
-            <img src="/images/cybersecurity Bootcamp.png" alt="Project 4" />
+            <img src="./images/cybersecurity Bootcamp.png" alt="Project 4" />
             <div className="card-content">
               <h3>Project 4</h3>
               <p>Description about project 4 here.</p>
@@ -168,7 +168,7 @@ function App() {
           </div>
 
           <div className="card">
-            <img src="/images/my certificate 5.png" alt="Project 5" />
+            <img src="./images/my certificate 5.png" alt="Project 5" />
             <div className="card-content">
               <h3>Project 3</h3>
               <p>Description about project 3 here.</p>
@@ -176,7 +176,7 @@ function App() {
           </div>
 
           <div className="card">
-            <img src="/images/my certificate 6.png" alt="Project 6" />
+            <img src="./images/my certificate 6.png" alt="Project 6" />
             <div className="card-content">
               <h3>Project 3</h3>
               <p>Description about project 3 here.</p>
@@ -184,7 +184,7 @@ function App() {
           </div>
 
           <div className="card">
-            <img src="/images/my certificate 7.png" alt="Project 7" />
+            <img src="./images/my certificate 7.png" alt="Project 7" />
             <div className="card-content">
               <h3>Project 3</h3>
               <p>Description about project 3 here.</p>
@@ -192,7 +192,7 @@ function App() {
           </div>
 
           <div className="card">
-            <img src="/images/my certificate 8.png" alt="Project 8" />
+            <img src="./images/my certificate 8.png" alt="Project 8" />
             <div className="card-content">
               <h3>Project 3</h3>
               <p>Description about project 3 here.</p>
