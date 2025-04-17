@@ -74,7 +74,7 @@ function App() {
 
         <div className="intro-container">
           <div className="intro-photo">
-            <img src="./images/prem.jpeg" alt="Prem Kumar" />
+            <img src={`${process.env.PUBLIC_URL}/images/prem.jpeg`} alt="Prem Kumar" />
           </div>
           <div className="intro-text">
             <h2>Hi, I'm Challagali Prem kumar</h2>
